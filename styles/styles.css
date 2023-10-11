@@ -1,0 +1,213 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+body {
+    background: linear-gradient(rgba(5,7,9,.3), rgba(9,7,5,.3)), url(../assets/fondo-logistica.jpg) no-repeat center center ;
+}
+/**HEADER**/
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #023047;
+    
+    align-items: center;
+    height: 90px;
+}
+.logo {
+    width: auto;
+    height: 80px;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+header nav {
+    padding-right: 80px;
+}
+.fondo {
+    background-color: #023047;
+}
+/**INDEX**/
+
+.titulos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    
+}
+
+.hovers:hover {
+    background-color: beige;
+}
+.margen {
+    display: flex;
+    flex-wrap: wrap;
+}
+/**article h3 p {
+    padding-left: 30px;
+}**/ 
+ul {
+    list-style-type: none;
+    }
+li{
+    display: inline-block;
+    margin: 10px;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+ .cards {
+display: flex;
+flex-wrap: wrap; 
+margin: 10px;
+justify-content: space-evenly;
+
+
+ }
+
+ .card {
+    background-color: #0230478a;
+      margin: 20px;
+width: 250px;
+height: 402px;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 10px;
+justify-content: space-between;
+border:2px white solid;
+border-radius: 5px;
+ }
+
+ .card div {
+display: flex;
+align-items: center;
+flex-direction: column;
+text-align: center;
+ }
+
+
+ .image {
+    
+    width: 100%;
+    max-width: 100%;
+    height: 50%;  
+ }
+.image img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+/**VIDEO INDEX**/
+.video-conteiner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+margin-bottom: 20px;
+}
+.video {
+width: 70%;
+height: 400px;
+
+}
+/**BUSCAR**/
+.formulario-buscar {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.formulario-busqueda {
+    width: 35%;
+}
+
+.boton {
+    border: 2px solid orange;
+}
+.boton:hover {
+    border-radius: 2px;
+}
+
+.color-fuente {
+   color: white;
+}
+
+.ancho-nav {
+    width: 100%;
+}
+
+/**CONTACTO**/
+.pad {
+   padding-left: 10px;
+   padding-bottom: 5px;
+}
+
+.lista input, .lista textarea form {
+    display: inline-block;
+    padding-left: 10px;
+}
+input {
+    padding-left: 10px;
+}
+
+form {
+    padding-left: 10px;
+}
+
+.padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/**PREGUNTAS FRECUENTES**/
+.separar-parrafos {
+    padding: 10px;
+}
+
+/**HACER ENVIOS**/
+.margen-izquierdo {
+    padding-left: 10px;
+}
+
+
+/**FOOTER**/
+footer {
+    width: 100%;
+    position: static;
+    bottom: 0;
+}
+.foter {
+    display: flex;
+    flex-direction: column   ;
+    background-color: #023047;
+    padding: 20px;
+    position: sticky;
+    bottom: 0;
+   }
+.list-conteiner {
+    display: flex;
+    justify-content: space-evenly;
+}
+footer ul li {
+    display: block;
+}
+
+footer img {
+    width: 80px;
+    height: auto;
+}
+
+footer h3 {
+    margin: auto;
+}
